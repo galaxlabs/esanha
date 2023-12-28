@@ -6,9 +6,10 @@
  "document_type": "Document",
  "engine": "InnoDB",
  "field_order": [
+  "query_type_section",
+  "select",
   "item_details_section",
   "item_name",
-  "item_type",
   "column_break_qtfv",
   "item_code",
   "supplier_details_section",
@@ -28,11 +29,6 @@
    "fieldname": "item_details_section",
    "fieldtype": "Section Break",
    "label": "Item Details"
-  },
-  {
-   "fieldname": "item_type",
-   "fieldtype": "Select",
-   "label": "Item Type"
   },
   {
    "fieldname": "column_break_qtfv",
@@ -106,12 +102,34 @@
    "fieldtype": "Data",
    "label": "Item Name",
    "unique": 1
+  },
+  {
+   "fieldname": "query_type_section",
+   "fieldtype": "Section Break",
+   "label": "Query type"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "select",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Select",
+   "not_nullable": 1,
+   "options": "Query Types",
+   "reqd": 1,
+   "search_index": 1,
+   "sort_options": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-12-26 21:19:47.439259",
+ "modified": "2023-12-28 22:51:23.903721",
  "modified_by": "Administrator",
  "module": "Evaleuation App",
  "name": "Query",
@@ -127,6 +145,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Clint",
    "share": 1,
    "write": 1
   }

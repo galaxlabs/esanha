@@ -1,0 +1,146 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:type",
+ "creation": "2023-12-28 14:07:51.828078",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "query_type_section",
+  "type",
+  "column_break_sfqz",
+  "discription",
+  "required_documents_section",
+  "list_column",
+  "msds",
+  "sds",
+  "coa",
+  "tds",
+  "column_break_sqhg",
+  "halal_certificate_declaration",
+  "product_spec",
+  "lab_sample_report",
+  "halal_questionnaire",
+  "pds"
+ ],
+ "fields": [
+  {
+   "fieldname": "query_type_section",
+   "fieldtype": "Section Break",
+   "label": "Query Type"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_sfqz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "discription",
+   "fieldtype": "Small Text",
+   "label": "Discription"
+  },
+  {
+   "fieldname": "required_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Required Documents"
+  },
+  {
+   "fieldname": "list_column",
+   "fieldtype": "Column Break",
+   "label": "List",
+   "print_hide": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "msds",
+   "fieldtype": "Check",
+   "label": "MSDS",
+   "print_hide": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "sds",
+   "fieldtype": "Check",
+   "label": "SDS"
+  },
+  {
+   "default": "0",
+   "fieldname": "coa",
+   "fieldtype": "Check",
+   "label": "COA"
+  },
+  {
+   "default": "0",
+   "fieldname": "tds",
+   "fieldtype": "Check",
+   "label": "TDS"
+  },
+  {
+   "fieldname": "column_break_sqhg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "halal_certificate_declaration",
+   "fieldtype": "Check",
+   "label": "Halal Certificate, declaration"
+  },
+  {
+   "default": "0",
+   "fieldname": "product_spec",
+   "fieldtype": "Check",
+   "label": "Product Spec",
+   "print_hide": 1,
+   "search_index": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "lab_sample_report",
+   "fieldtype": "Check",
+   "label": "Lab Sample Report",
+   "print_hide": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "halal_questionnaire",
+   "fieldtype": "Check",
+   "label": "Halal Questionnaire",
+   "print_hide": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "pds",
+   "fieldtype": "Check",
+   "label": "PDS"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-28 22:20:30.697947",
+ "modified_by": "Administrator",
+ "module": "Evaleuation App",
+ "name": "Query Types",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Clint",
+   "select": 1,
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
