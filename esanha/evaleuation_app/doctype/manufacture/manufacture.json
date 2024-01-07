@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-29 14:16:10.342107",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "manufacture",
+  "manufacture_code",
+  "manufacture_contact",
+  "manufacture_email",
+  "manufacture_website"
+ ],
+ "fields": [
+  {
+   "fieldname": "manufacture",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Manufacture",
+   "reqd": 1
+  },
+  {
+   "fieldname": "manufacture_code",
+   "fieldtype": "Data",
+   "label": "Manufacture Code"
+  },
+  {
+   "fieldname": "manufacture_contact",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Manufacture Contact",
+   "reqd": 1
+  },
+  {
+   "fieldname": "manufacture_email",
+   "fieldtype": "Data",
+   "label": "Manufacture Email"
+  },
+  {
+   "fieldname": "manufacture_website",
+   "fieldtype": "Data",
+   "label": "Manufacture Website"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-29 14:18:27.734444",
+ "modified_by": "Administrator",
+ "module": "Evaleuation App",
+ "name": "Manufacture",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Clint",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

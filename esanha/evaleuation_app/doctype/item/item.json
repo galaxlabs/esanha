@@ -41,7 +41,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-25 09:11:50.599213",
+ "modified": "2023-12-29 13:33:36.811884",
  "modified_by": "Administrator",
  "module": "Evaleuation App",
  "name": "Item",
@@ -59,9 +59,39 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Clint",
+   "select": 1,
+   "share": 1,
+   "write": 1
   }
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [
+  {
+   "color": "Blue",
+   "title": "Save"
+  },
+  {
+   "color": "Cyan",
+   "title": "Cancel"
+  },
+  {
+   "color": "Green",
+   "title": "Continue "
+  },
+  {
+   "color": "Orange",
+   "title": "DisContinue"
+  }
+ ]
 }
